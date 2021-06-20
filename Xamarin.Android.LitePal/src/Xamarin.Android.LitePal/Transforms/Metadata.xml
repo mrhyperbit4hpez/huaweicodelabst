@@ -1,0 +1,4 @@
+﻿<metadata>
+  <attr path="/api/package[@name='org.litepal']" name="managedName">Xamarin.Android.LitePal</attr>
+  <attr path="/api/package[@name='org.litepal.java']" name="managedName">Xamarin.Android.LitePal.Core</attr>
+</metadata>
