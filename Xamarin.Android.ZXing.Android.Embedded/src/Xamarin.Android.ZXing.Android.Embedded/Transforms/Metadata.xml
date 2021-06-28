@@ -1,0 +1,10 @@
+﻿<metadata>
+  <attr path="/api/package[@name='com.google.zxing.client.android']" name="managedName">Xamarin.ZXing.Client.Android</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.android.camera']" name="managedName">Xamarin.ZXing.Client.Android.Camera</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.android.camera.open']" name="managedName">Xamarin.ZXing.Client.Android.Camera.Open</attr>
+  <attr path="/api/package[@name='com.google.zxing.integration.android']" name="managedName">Xamarin.ZXing.Integration.Android</attr>
+  <attr path="/api/package[@name='com.journeyapps.barcodescanner']" name="managedName">Xamarin.JourneyApps.BarcodeScanner</attr>
+  <attr path="/api/package[@name='com.journeyapps.barcodescanner.camera']" name="managedName">Xamarin.JourneyApps.BarcodeScanner.Camera</attr>
+
+  <attr path="/api/package[@name='com.journeyapps.barcodescanner']/class[@name='Size']/method[@name='compareTo' and count(parameter)=1 and parameter[1][@type='com.journeyapps.barcodescanner.Size']]/parameter[1]" name="managedType">Java.Lang.Object</attr>
+</metadata>
