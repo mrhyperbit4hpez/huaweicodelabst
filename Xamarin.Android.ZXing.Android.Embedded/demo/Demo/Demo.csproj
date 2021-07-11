@@ -54,10 +54,12 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
-    <Reference Include="Xamarin.Android.ZXing">
+    <Reference Include="Xamarin.Android.ZXing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dll\v3.6.0\Xamarin.Android.ZXing.dll</HintPath>
     </Reference>
-    <Reference Include="Xamarin.Android.ZXing.Android.Embedded">
+    <Reference Include="Xamarin.Android.ZXing.Android.Embedded, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\dll\v3.6.0\Xamarin.Android.ZXing.Android.Embedded.dll</HintPath>
     </Reference>
   </ItemGroup>

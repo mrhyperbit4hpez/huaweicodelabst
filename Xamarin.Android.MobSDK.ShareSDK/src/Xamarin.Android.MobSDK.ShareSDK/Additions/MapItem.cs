@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Xamarin.Mob.Tools.Java8
+namespace Com.Mob.Tools.Java8
 {
     public partial class MapFlow
     {

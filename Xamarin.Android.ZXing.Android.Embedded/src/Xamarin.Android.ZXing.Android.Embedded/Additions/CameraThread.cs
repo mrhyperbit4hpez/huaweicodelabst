@@ -1,7 +1,7 @@
 ﻿using Android.OS;
 using Java.Lang;
 
-namespace Xamarin.JourneyApps.BarcodeScanner.Camera
+namespace Com.Journeyapps.Barcodescanner.Camera
 {
     public class CameraThread : Object
     {

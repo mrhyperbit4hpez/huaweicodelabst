@@ -4,7 +4,7 @@ using Android.Runtime;
 using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
-using Xamarin.JourneyApps.BarcodeScanner;
+using Com.Journeyapps.Barcodescanner;
 
 namespace Demo
 {

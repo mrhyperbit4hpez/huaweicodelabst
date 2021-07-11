@@ -1,27 +1,4 @@
-﻿<metadata>
-
-  <attr path="/api/package[@name='cn.sharesdk.sina.weibo.sdk']" name="managedName">Xamarin.ShareSdk.Sina.Weibo.Sdk</attr>
-  <attr path="/api/package[@name='cn.sharesdk.tencent.qq']" name="managedName">Xamarin.ShareSdk.Tencent.QQ</attr>
-  <attr path="/api/package[@name='cn.sharesdk.tencent.qzone']" name="managedName">Xamarin.ShareSdk.Tencent.Qzone</attr>
-  <attr path="/api/package[@name='cn.sharesdk.wechat.utils']" name="managedName">Xamarin.ShareSdk.Wechat.Utils</attr>
-  <attr path="/api/package[@name='com.mob']" name="managedName">Xamarin.Mob</attr>
-  <attr path="/api/package[@name='com.mob.commons']" name="managedName">Xamarin.Mob.Commons</attr>
-  <attr path="/api/package[@name='com.mob.commons.authorize']" name="managedName">Xamarin.Mob.Commons.Authorize</attr>
-  <attr path="/api/package[@name='com.mob.commons.clt']" name="managedName">Xamarin.Mob.Commons.Clt</attr>
-  <attr path="/api/package[@name='com.mob.commons.eventrecoder']" name="managedName">Xamarin.Mob.Commons.EventreCoder</attr>
-  <attr path="/api/package[@name='com.mob.commons.filesys']" name="managedName">Xamarin.Mob.Commons.FileSys</attr>
-  <attr path="/api/package[@name='com.mob.commons.logcollector']" name="managedName">Xamarin.Mob.Commons.Logcollector</attr>
-  <attr path="/api/package[@name='com.mob.commons.utag']" name="managedName">Xamarin.Mob.Commons.Utag</attr>
-  <attr path="/api/package[@name='com.mob.tools']" name="managedName">Xamarin.Mob.Tools</attr>
-  <attr path="/api/package[@name='com.mob.tools.gui']" name="managedName">Xamarin.Mob.Tools.GUI</attr>
-  <attr path="/api/package[@name='com.mob.tools.java8']" name="managedName">Xamarin.Mob.Tools.Java8</attr>
-  <attr path="/api/package[@name='com.mob.tools.log']" name="managedName">Xamarin.Mob.Tools.Log</attr>
-  <attr path="/api/package[@name='com.mob.tools.network']" name="managedName">Xamarin.Mob.Tools.Network</attr>
-  <attr path="/api/package[@name='com.mob.tools.proguard']" name="managedName">Xamarin.Mob.Tools.Proguard</attr>
-  <attr path="/api/package[@name='com.mob.tools.utils']" name="managedName">Xamarin.Mob.Tools.Utils</attr>
-  <attr path="/api/package[@name='com.sina.sso']" name="managedName">Xamarin.Sina.SSO</attr>
-  <attr path="/api/package[@name='com.sina.weibo.sdk.api']" name="managedName">Xamarin.Sina.Weibo.Sdk.API</attr>
-  
+﻿<metadata>  
   <attr path="/api/package[@name='com.mob.tools.java8']/class[@name='FlowIterator.BoolArrayIterator']/method[@name='element' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
   <attr path="/api/package[@name='com.mob.tools.java8']/class[@name='FlowIterator.ByteArrayIterator']/method[@name='element' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>
   <attr path="/api/package[@name='com.mob.tools.java8']/class[@name='FlowIterator.CharArrayIterator']/method[@name='element' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">Java.Lang.Object</attr>

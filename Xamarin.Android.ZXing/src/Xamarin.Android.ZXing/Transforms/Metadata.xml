@@ -1,56 +1,24 @@
 ﻿<metadata>
-  <attr path="/api/package[@name='com.google.zxing']" name="managedName">Xamarin.ZXing</attr>
-  <attr path="/api/package[@name='com.google.zxing.aztec']" name="managedName">Xamarin.ZXing.Aztec</attr>
-  <attr path="/api/package[@name='com.google.zxing.aztec.decoder']" name="managedName">Xamarin.ZXing.Aztec.Decoder</attr>
-  <attr path="/api/package[@name='com.google.zxing.aztec.detector']" name="managedName">Xamarin.ZXing.Aztec.Detector</attr>
-  <attr path="/api/package[@name='com.google.zxing.aztec.encoder']" name="managedName">Xamarin.ZXing.Aztec.Encoder</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']" name="managedName">Xamarin.ZXing.Client.Result</attr>
-  <attr path="/api/package[@name='com.google.zxing.common']" name="managedName">Xamarin.ZXing.Common</attr>
-  <attr path="/api/package[@name='com.google.zxing.common.detector']" name="managedName">Xamarin.ZXing.Common.Detector</attr>
-  <attr path="/api/package[@name='com.google.zxing.common.reedsolomon']" name="managedName">Xamarin.ZXing.Common.ReedSolomon</attr>
-  <attr path="/api/package[@name='com.google.zxing.datamatrix']" name="managedName">Xamarin.ZXing.DataMatrix</attr>
-  <attr path="/api/package[@name='com.google.zxing.datamatrix.decoder']" name="managedName">Xamarin.ZXing.DataMatrix.Decoder</attr>
-  <attr path="/api/package[@name='com.google.zxing.datamatrix.detector']" name="managedName">Xamarin.ZXing.DataMatrix.Detector</attr>
-  <attr path="/api/package[@name='com.google.zxing.datamatrix.encoder']" name="managedName">Xamarin.ZXing.DataMatrix.Encoder</attr>
-  <attr path="/api/package[@name='com.google.zxing.maxicode']" name="managedName">Xamarin.ZXing.MaxiCode</attr>
-  <attr path="/api/package[@name='com.google.zxing.maxicode.decoder']" name="managedName">Xamarin.ZXing.MaxiCode.Decoder</attr>
-  <attr path="/api/package[@name='com.google.zxing.multi']" name="managedName">Xamarin.ZXing.Multi</attr>
-  <attr path="/api/package[@name='com.google.zxing.multi.qrcode']" name="managedName">Xamarin.ZXing.Multi.QRCode</attr>
-  <attr path="/api/package[@name='com.google.zxing.multi.qrcode.detector']" name="managedName">Xamarin.ZXing.Multi.QRCode.Detector</attr>
-  <attr path="/api/package[@name='com.google.zxing.oned']" name="managedName">Xamarin.ZXing.Oned</attr>
-  <attr path="/api/package[@name='com.google.zxing.oned.rss']" name="managedName">Xamarin.ZXing.Oned.RSS</attr>
-  <attr path="/api/package[@name='com.google.zxing.oned.rss.expanded']" name="managedName">Xamarin.ZXing.Oned.RSS.Expanded</attr>
-  <attr path="/api/package[@name='com.google.zxing.oned.rss.expanded.decoders']" name="managedName">Xamarin.ZXing.Oned.RSS.Expanded.Decoders</attr>
-  <attr path="/api/package[@name='com.google.zxing.pdf417']" name="managedName">Xamarin.ZXing.PDF417</attr>
-  <attr path="/api/package[@name='com.google.zxing.pdf417.decoder']" name="managedName">Xamarin.ZXing.PDF417.Decoder</attr>
-  <attr path="/api/package[@name='com.google.zxing.pdf417.decoder.ec']" name="managedName">Xamarin.ZXing.PDF417.Decoder.EC</attr>
-  <attr path="/api/package[@name='com.google.zxing.pdf417.detector']" name="managedName">Xamarin.ZXing.PDF417.Detector</attr>
-  <attr path="/api/package[@name='com.google.zxing.pdf417.encoder']" name="managedName">Xamarin.ZXing.PDF417.Encoder</attr>
-  <attr path="/api/package[@name='com.google.zxing.qrcode']" name="managedName">Xamarin.ZXing.QRCode</attr>
-  <attr path="/api/package[@name='com.google.zxing.qrcode.decoder']" name="managedName">Xamarin.ZXing.QRCode.Decoder</attr>
-  <attr path="/api/package[@name='com.google.zxing.qrcode.detector']" name="managedName">Xamarin.ZXing.QRCode.Detector</attr>
-  <attr path="/api/package[@name='com.google.zxing.qrcode.encoder']" name="managedName">Xamarin.ZXing.QRCode.Encoder</attr>
-
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='AddressBookAUResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='AddressBookDoCoMoResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='BizcardResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='BookmarkDoCoMoResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='EmailAddressResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='EmailDoCoMoResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='ExpandedProductResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='GeoResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='ISBNResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='ProductResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='SMSMMSResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='SMSTOMMSTOResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='SMTPResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='TelResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='URIResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='URLTOResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='VCardResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='VEventResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='VINResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
-  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='WifiResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Xamarin.ZXing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='AddressBookAUResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='AddressBookDoCoMoResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='BizcardResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='BookmarkDoCoMoResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='EmailAddressResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='EmailDoCoMoResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='ExpandedProductResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='GeoResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='ISBNResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='ProductResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='SMSMMSResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='SMSTOMMSTOResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='SMTPResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='TelResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='URIResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='URLTOResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='VCardResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='VEventResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='VINResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
+  <attr path="/api/package[@name='com.google.zxing.client.result']/class[@name='WifiResultParser']/method[@name='parse' and count(parameter)=1 and parameter[1][@type='com.google.zxing.Result']]" name="managedReturn">Com.Google.Zxing.Client.Result.ParsedResult</attr>
 
   <remove-node path="/api/package[@name='com.google.zxing.oned.rss.expanded.decoders']/class[@name='AbstractExpandedDecoder']/method[@name='getGeneralDecoder' and count(parameter)=0]" />
 </metadata>
