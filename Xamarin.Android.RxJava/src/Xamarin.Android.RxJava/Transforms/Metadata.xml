@@ -1,4 +1,23 @@
 ﻿<metadata>
+  <attr path="/api/package[@name='io.reactivex.observers']/class[@name='TestObserver']/method[@name='assertSubscribed' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+  <attr path="/api/package[@name='io.reactivex.observers']/class[@name='TestObserver']/method[@name='assertNotSubscribed' and count(parameter)=0]" name="managedReturn">Java.Lang.Object</attr>
+
+  <remove-node path="/api/package[@name='io.reactivex.internal.util']/class[@name='ArrayListSupplier']" />
+  <remove-node path="/api/package[@name='io.reactivex.internal.schedulers']/class[@name='SchedulerWhen']" />
+  <remove-node path="/api/package[@name='io.reactivex.internal.util']/class[@name='SorterFunction']" />
+  <remove-node path="/api/package[@name='io.reactivex.internal.util']/class[@name='MergerBiFunction']" />
+  <remove-node path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.ListSorter']" />
+  <remove-node path="/api/package[@name='io.reactivex.internal.util']/class[@name='ListAddBiConsumer']" />
+
+  <remove-node path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.Array2Func']" />
+  <remove-node path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.Array3Func']" />
+  <remove-node path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.Array4Func']" />
+  <remove-node path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.Array5Func']" />
+  <remove-node path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.Array6Func']" />
+  <remove-node path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.Array7Func']" />
+  <remove-node path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.Array8Func']" />
+  <remove-node path="/api/package[@name='io.reactivex.internal.functions']/class[@name='Functions.Array9Func']" />
+
   <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableAmb']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">protected</attr>
   <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableConcat']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">protected</attr>
   <attr path="/api/package[@name='io.reactivex.internal.operators.completable']/class[@name='CompletableConcatArray']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.CompletableObserver']]" name="visibility">protected</attr>
@@ -29,7 +48,7 @@
   <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFromArray']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">protected</attr>
   <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFromFuture']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">protected</attr>
   <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableIgnoreElements']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">protected</attr>
-  <attr path="api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableElementAtMaybe']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.MaybeObserver&lt;? super T&gt;']]" name="visibility">protected</attr>
+  <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableElementAtMaybe']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.MaybeObserver&lt;? super T&gt;']]" name="visibility">protected</attr>
   <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableElementAtSingle']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.SingleObserver&lt;? super T&gt;']]" name="visibility">protected</attr>
   <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableFromCallable']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">protected</attr>
   <attr path="/api/package[@name='io.reactivex.internal.operators.observable']/class[@name='ObservableGenerate']/method[@name='subscribeActual' and count(parameter)=1 and parameter[1][@type='io.reactivex.Observer&lt;? super T&gt;']]" name="visibility">protected</attr>

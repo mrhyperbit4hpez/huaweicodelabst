@@ -41,9 +41,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Additions\ArrayFunc.cs" />
     <Compile Include="Additions\ArrayListCapacityCallable.cs" />
-    <Compile Include="Additions\ArrayListSupplier.cs" />
     <Compile Include="Additions\BasicFuseableObserver.cs" />
     <Compile Include="Additions\BasicIntQueueDisposable.cs" />
     <Compile Include="Additions\BasicQueueDisposable.cs" />
